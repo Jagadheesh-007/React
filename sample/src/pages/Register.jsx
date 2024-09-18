@@ -1,5 +1,5 @@
     const Register = (props) => {
-  console.log(props.degree)
+   console.log(props)
     return (
       <>
         <div className="h-screen w-screen flex justify-center items-center bg-slate-100">
