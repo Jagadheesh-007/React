@@ -1,11 +1,18 @@
-import Navbar from './components/Navbar'
-import { useState } from 'react'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Projects from './pages/Projects'
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <div>App Data</div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

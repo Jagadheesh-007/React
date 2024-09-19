@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from '../components/Navbar'
-const Contact = () => {
+const Projects = () => {
   return (
     <>
     <Nav/>
-    <div>Contact</div>
+    <div>Projects</div>
     </>
   )
 }
 
-export default Contact
+export default Projects
